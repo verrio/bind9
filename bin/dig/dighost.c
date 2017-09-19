@@ -567,8 +567,8 @@ make_empty_lookup(void) {
 	looknew->pending = ISC_TRUE;
 	looknew->textname[0] = 0;
 	looknew->cmdline[0] = 0;
-	looknew->rdtype = dns_rdatatype_a;
-	looknew->qrdtype = dns_rdatatype_a;
+	looknew->rdtype = dns_rdatatype_aaaa;
+	looknew->qrdtype = dns_rdatatype_aaaa;
 	looknew->rdclass = dns_rdataclass_in;
 	looknew->rdtypeset = ISC_FALSE;
 	looknew->rdclassset = ISC_FALSE;

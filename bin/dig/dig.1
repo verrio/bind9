@@ -136,7 +136,7 @@ can be any valid query type\&. If no
 \fItype\fR
 argument is supplied,
 \fBdig\fR
-will perform a lookup for an A record\&.
+will perform a lookup for an AAAA record\&.
 .RE
 .SH "OPTIONS"
 .PP
@@ -210,7 +210,7 @@ from other arguments\&.
 .PP
 \-t \fItype\fR
 .RS 4
-The resource record type to query\&. It can be any valid query type which is supported in BIND 9\&. The default query type is "A", unless the
+The resource record type to query\&. It can be any valid query type which is supported in BIND 9\&. The default query type is "AAAA", unless the
 \fB\-x\fR
 option is supplied to indicate a reverse lookup\&. A zone transfer can be requested by specifying a type of AXFR\&. When an incremental zone transfer (IXFR) is required, set the
 \fItype\fR
